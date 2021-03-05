@@ -6,6 +6,7 @@ mx1_rf<-0.387874
 # each line correspond to a patient
 # columns have to be in the following order: 
 # IgG S1, IgG S2, IgG RBD, IgG N, IgA S1, IgA S2, IgA RBD, IgA N, IgM S1, IgM S2, IgM RBD, IgM N
+# names of the columns should be "IgG_S1_LFS", ... "IgG_NP_LFS", ... 
 # no other columns
 # measures of the Igs are log10(Fold over empty)
 
