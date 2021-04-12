@@ -2,7 +2,7 @@ library(ranger)
 ###################### Necessary inputs: random forest model + probability threshold + newdata
 load("ABCORA2.3.RFranger.RData")
 mx1_rf<-0.3845776
-
+newdata<-read.table("newdata.txt",header=TRUE)
 ###################### newdata has to be of the following format
 # each line correspond to a patient
 # columns should included the following measurements: 
